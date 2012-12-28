@@ -46,6 +46,7 @@ There are 3 data files in __teeth__:
 - data-levels.js  
 - data-characters.js
 - data-AI.js
+
 You should be able to do the number changings easily.
 However I hope that you can create more maps for this game.
 Look at the sample map for the demo level 0:
@@ -85,3 +86,6 @@ Every other parameters in the data files should be well explained in the comment
 
 Happy hacking, good luck.
 > if more people are playing this game, I will probably develop a level editor. but a GUI editor always has its down sides so please learn the textual basis first.
+
+### Finally
+If you have designed good levels, please send them to me or make a pull request and I'll include them in the offical release.
