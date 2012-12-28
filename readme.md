@@ -1,5 +1,6 @@
 # Teeth
 Teeth is a pacman style game based on F.core.
+[Play now!](http://tyt2y3.github.com/teeth/)
 
 It is my spare time project to make some fun out of teeth-teeth and brain demon.
 
