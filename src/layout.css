@@ -1,0 +1,28 @@
+#game
+{
+	position: relative;
+	width:400px;
+	border:1px solid black;
+}
+#stage
+{
+	position: relative;
+	width:100%;
+	height:400px;
+}
+#startpage
+{
+	z-index: 100;
+}
+#infobar
+{
+	position: relative;
+	width:100%;
+	height:35px;
+}
+#infotext
+{
+	resize: none;
+	width: 100%;
+	height: 100%;
+}
