@@ -1,0 +1,43 @@
+<html>
+
+<head>
+	<script data-main="map_designer.js" src="../third_party/require.js"></script>
+	<link rel="stylesheet" type="text/css" href="layout.css">
+	<link rel="stylesheet" type="text/css" href="visuals.css">
+	<script src="../third_party/persist-min.js"></script>
+</head>
+
+<body>
+
+<div id='game'>
+
+	<div class='bigtitle' id='startpage'>
+		牙牙牙<br>
+		<a class='bigbutton' id='start'>Start</a>
+	</div>
+
+	<div class='midtitle' id='gametext'>gameover</div>
+
+<!--
+	this will be created dynamically by game.js
+	<div id='stage'>
+	</div>
+-->
+
+	<div id='infobar'>
+		<div id='infotext'>arrow keys to control</div>
+	</div>
+</div>
+
+<div id='editor'>
+	<div class='toolbar'>
+		<button id='update'>update</button>
+		level: <input id='select_level' style='width:50px;' value='0'></input>
+		<button id='template'>template</button>
+	</div>
+	<textarea id='code'></textarea>
+</div>
+
+</body>
+
+</html>
