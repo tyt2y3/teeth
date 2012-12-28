@@ -30,7 +30,7 @@ Then replace the sprite indices in the data files, for example
 ```
 keep in mind that the sprite index starts counting 0 in the top-left corner.
 
-For characters, you see arrays and they are representing an animation sequence
+For characters, you see arrays and they are representing animation sequences
 ```javascript
 action:
 {
@@ -43,9 +43,9 @@ action:
 
 ## Data changing
 There are 3 data files in __teeth__:
--data-levels.js  
--data-characters.js
--data-AI.js
+- data-levels.js  
+- data-characters.js
+- data-AI.js
 You should be able to do the number changings easily.
 However I hope that you can create more maps for this game.
 Look at the sample map for the demo level 0:
@@ -75,9 +75,9 @@ So `'L'` really means a north-east junction with sprite 80.
 This shouldnt be hard to understand.
 
 Some points to note:
--there can be only 1 hero born point
--there can be many ghost born points
--there can be many treasure points
+- there can be only 1 hero born point
+- there can be many ghost born points
+- there can be many treasure points
 
 Every other parameters in the data files should be well explained in the comments.
 > some technical points to note:
