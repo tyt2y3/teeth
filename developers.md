@@ -3,6 +3,7 @@ This guide is for developers doing development beyond data changing with the __t
 
 ## Toolchains
 - an up-to-date browser
+- git
 - [node.js](http://nodejs.org/)
 - [F.core repository](https://github.com/tyt2y3/F.core) install with teeth side by side
 
