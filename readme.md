@@ -9,6 +9,7 @@ I will be maintaining this code base until Jan 31 2013, and _may_ accept feature
 # Hackability
 This game is designed to be hackable. It should be easy to design custom levels, maps and sprites. And with some coding, everything is possible.
 So you are come to hack me. First of all you need to clone this repository. Then look into the subdirectory `release/src`.
+> Do not work in the `/src` directory. There will be no effect.
 
 ## Sprite changing
 You can create sprites for __teeth__. Then do some configurations in data files, for example
