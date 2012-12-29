@@ -1,4 +1,5 @@
 # Teeth
+![screenshot](http://tyt2y3.github.com/teeth/web/images/cap01.png)
 Teeth is a pacman style game based on F.core.
 [__Play now!__](http://tyt2y3.github.com/teeth/)
 
@@ -30,7 +31,8 @@ Then replace the sprite indices in the data files, for example
 	sprite: 80 //sprite index
 },
 ```
-keep in mind that the sprite index starts counting 0 in the top-left corner.
+keep in mind that the sprite index starts counting 0 in the top-left corner, going to the right first.
+in the above example, 80 is really the 8th row, 0th column. to keep things simple, always size to 10 columns in your sprite map.
 
 For characters, you see arrays and they are representing animation sequences
 ```javascript

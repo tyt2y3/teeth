@@ -31,7 +31,7 @@ __teeth__ is built with the best practices in web application development, inclu
 > - copy everything into `/src-build`
 > - run r.js on node.js to optimize the source files
 > to cut off their dependencies and put everything (except data) into one script file.
-> - copy the *.png, *.css, data*.js, and the .html files into `/release`
+> - copy the `*.png`, `*.css`, `data*.js`, and the `.html` files into `/release`
 > - delete `/src-build`
 
 -then run `make release`
