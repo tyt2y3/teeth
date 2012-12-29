@@ -1,0 +1,26 @@
+# Develop
+This guide is for developers doing real development with the game.
+
+## Toolchains
+- an up-to-date browser
+- [node.js](http://nodejs.org/)
+- [F.core repository](https://github.com/tyt2y3/F.core)
+- [requirejs](http://requirejs.org/) (already installed in the repo)
+
+## Workflow
+- do the development in the subdirectory `/src`
+- when everything is good, run `make all`
+	> or just copy and run the commands line by line
+	> what `make all` does is really
+	> - copy everything into `/src-build`
+	> - run r.js on node.js to optimize the source file main.js
+	> to cut off its dependencies and put (nearly) everything into one script file.
+	> - copy the sprites, css, and data-*.js files into `/release`
+	> - delete `/src-build`
+- `git checkout gh-pages`
+- `git merge master`
+- `git push`
+- `git checkout master` and get back to work
+
+## License
+__teeth__ is largely based on [F.core](https://github.com/tyt2y3/F.core) and is also under the name of [Project F](http://project--f.blogspot.com/). So it has to follow the [license of Project F](http://project--f.blogspot.hk/2012/05/license.html). But in short, everything except commercial use is allowed.
