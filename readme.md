@@ -89,5 +89,8 @@ Every other parameters in the data files should be well explained in the comment
 Happy hacking, good luck.
 > if more people are playing this game, I will probably develop a level editor. but a GUI editor always has its down sides so please learn the textual basis first.
 
+# Develop
+developers,developers,developers,,, please read the [developer's guide](https://github.com/tyt2y3/teeth/blob/master/developers.md#develop).
+
 ### Finally
 If you have designed good levels, please send them to me or make a pull request and I'll include them in the offical release.

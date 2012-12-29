@@ -4,21 +4,31 @@ This guide is for developers doing real development with the game.
 ## Toolchains
 - an up-to-date browser
 - [node.js](http://nodejs.org/)
-- [F.core repository](https://github.com/tyt2y3/F.core)
+- [F.core repository](https://github.com/tyt2y3/F.core) install with teeth side by side
+
+> something like
+> ```
+> F/
+>	core/
+>	teeth/
+> ```
+
 - [requirejs](http://requirejs.org/) (already installed in the repo)
 
 ## Workflow
 - do the development in the subdirectory `/src`
 - when everything is good, run `make all`
-	> or just copy and run the commands line by line
-	> what `make all` does is really
-	> - copy everything into `/src-build`
-	> - run r.js on node.js to optimize the source file main.js
-	> to cut off its dependencies and put (nearly) everything into one script file.
-	> - copy the sprites, css, and data-*.js files into `/release`
-	> - delete `/src-build`
-- `git checkout gh-pages`
-- `git merge master`
+
+> or just copy and run the commands line by line
+> what `make all` does is really
+> - copy everything into `/src-build`
+> - run r.js on node.js to optimize the source file main.js
+> to cut off its dependencies and put (nearly) everything into one script file.
+> - copy the sprites, css, and data-*.js files into `/release`
+> - delete `/src-build`
+
+- `git checkout gh-pages` the gh-pages branch is hosted on web servers by github
+- `git merge master` merge any updates
 - `git push`
 - `git checkout master` and get back to work
 
