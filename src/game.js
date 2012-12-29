@@ -77,7 +77,7 @@ $, Level, Character, data_characters
 								$('infotext').innerHTML=
 								'too bad. you have '+hero.life+' lives left.<br>'+
 								'respawning in '+map.hero_respawn_time+' sec...';
-								setTimeout( function() {
+								timeout = setTimeout( function() {
 									hero.signal('respawn');
 									$('infotext').innerHTML= 'try again.';
 								}, map.hero_respawn_time*1000);
@@ -135,6 +135,7 @@ $, Level, Character, data_characters
 		level.game_start();
 		$('infotext').innerHTML='collect all pellets';
 		var timer=setInterval(frame,1000/31); //30fps
+		var timeout;
 		function frame()
 		{
 			for( var i in chars)
@@ -145,6 +146,8 @@ $, Level, Character, data_characters
 		//destructor to remove all DOM nodes
 		this.delete=function()
 		{
+			if( timeout)
+				clearTimeout(timeout);
 			clearInterval(timer);
 			$('stage').parentNode.removeChild($('stage'));
 		}
