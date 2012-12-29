@@ -24,7 +24,7 @@ This guide is for developers doing development beyond data changing with the __t
 > what `make all` does is really
 > - copy everything into `/src-build`
 > - run r.js on node.js to optimize the source files
-> to cut off its dependencies and put (nearly) everything into one script file.
+> to cut off its dependencies and put everything (except data) into one script file.
 > - copy the *.png, *.css, data*.js, and the .html files into `/release`
 > - delete `/src-build`
 
