@@ -6,7 +6,7 @@ build:
 	cp src-build/*.css release
 	cp src-build/main.html release
 	cp src-build/main-build.js release/main.js
-	cp src-build/data*.js release/data
+	cp src/data*.js release/data
 	rm -r src-build
 
 clean:
