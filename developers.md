@@ -28,8 +28,9 @@ This guide is for developers doing development beyond data changing with the __t
 > - copy the *.png, *.css, data*.js, and the .html files into `/release`
 > - delete `/src-build`
 
+- `git commit -am 'my commit'` commit all changes
 - `git checkout gh-pages` the gh-pages branch is hosted on web servers by github
-- `git merge master` merge any updates
+- `git merge master` merge any changes
 - `git push`
 - `git checkout master` and get back to work
 
