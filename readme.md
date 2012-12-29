@@ -97,3 +97,5 @@ developers,developers,developers,,, please read the [developer's guide](https://
 
 ### Finally
 If you have designed good levels, please send them to me or make a pull request and I'll include them in the offical release.
+
+Notes to CD-roms: If you do not have a golden account, you can contact me at __tyt2y3@gmail.com__.
