@@ -32,7 +32,7 @@ function($,Game,data_levels)
 		else
 		{
 			$('gametext').style.display='';
-			$('gametext').innerHTML='Game complete.<br><span style="font-size:40px;">you can design your own level!';
+			$('gametext').innerHTML='Game complete!<br><span style="font-size:30px;">Please <a href="https://github.com/tyt2y3/teeth#teeth" target="_blank">design levels and sprites</a> for this game.';
 			$('infotext').innerHTML= 'restarting in 15 sec...';
 			setTimeout(restart,15000);
 		}
