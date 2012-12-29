@@ -1,5 +1,5 @@
 # Develop
-This guide is for developers doing real development with the game.
+This guide is for developers doing development beyond data changing with the __teeth__.
 
 ## Toolchains
 - an up-to-date browser
@@ -19,12 +19,13 @@ This guide is for developers doing real development with the game.
 - do the development in the subdirectory `/src`
 - when everything is good, run `make all`
 
-> or just copy and run the commands line by line
+> or just copy and run the commands line by line.
+>
 > what `make all` does is really
 > - copy everything into `/src-build`
-> - run r.js on node.js to optimize the source file main.js
+> - run r.js on node.js to optimize the source files
 > to cut off its dependencies and put (nearly) everything into one script file.
-> - copy the sprites, css, and data-*.js files into `/release`
+> - copy the *.png, *.css, data*.js, and the .html files into `/release`
 > - delete `/src-build`
 
 - `git checkout gh-pages` the gh-pages branch is hosted on web servers by github
