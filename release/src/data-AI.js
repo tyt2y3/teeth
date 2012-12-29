@@ -1,0 +1,1 @@
+define({normal:{alert_distance:6,out_of_wander:.2}})
