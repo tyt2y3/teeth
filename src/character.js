@@ -360,7 +360,8 @@ character.prototype.consume_signal=function()
 			switch (this.pending_signal[i])
 			{
 				case 'I want you!':
-					this.transform_to_state('be_chase');
+					if( this.state==='wander' || this.state==='chase')
+						this.transform_to_state('be_chase');
 				break;
 				case 'I ate you!':
 					this.state_timeout = this.dat.be_eaten_timeout;
