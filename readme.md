@@ -84,7 +84,7 @@ Some points to note:
 
 Every other parameters in the data files should be well explained in the comments.
 > some technical points to note:
-> Each data-level.js file defines a JSON structure. And the concept is each data-level.js file is a level-pack containing multiple levels. All level in a level-pack share the same sprites and building-blocks. This is a two-level data representation and is entirely an architectural thing. The up side is we can probably load level-packs on the fly and be fancy.
+> Each data-level.js file defines a JSON structure. And the concept is each data-level.js file is a level-pack containing multiple levels. All levels in a level-pack share the same sprites and building-blocks. This is a two-level data representation and is entirely an architectural thing. The up side is we can probably load level-packs on the fly and be fancy.
 
 Happy hacking, good luck.
 > if more people are playing this game, I will probably develop a level editor. but a GUI editor always has its down sides so please learn the textual basis first.
