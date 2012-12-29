@@ -9,7 +9,7 @@ I will be maintaining this code base until Jan 31 2013, and _may_ accept feature
 
 # Hackability
 This game is designed to be hackable. It should be easy to design custom levels, maps and sprites. And with some coding, everything is possible.
-So you are come to hack me. First of all you need to clone this repository. Then look into the subdirectory `release/src`.
+So you are come to hack me. First of all you need to clone this repository. Then look into the subdirectory `release/data`.
 > Do not work in the `/src` directory. There will be no effect.
 
 ## Sprite changing
@@ -85,10 +85,13 @@ Some points to note:
 
 Every other parameters in the data files should be well explained in the comments.
 > some technical points to note:
-> Each data-level.js file defines a JSON structure. And the concept is each data-level.js file is a level-pack containing multiple levels. All level in a level-pack share the same sprites and building-blocks. This is a two-level data representation and is entirely an architectural thing. The up side is we can probably load level-packs on the fly and be fancy.
+> Each data-level.js file defines a JSON structure. And the concept is each data-level.js file is a level-pack containing multiple levels. All levels in a level-pack share the same sprites and building-blocks. This is a two-level data representation and is entirely an architectural thing. The up side is we can probably load level-packs on the fly and be fancy.
 
 Happy hacking, good luck.
 > if more people are playing this game, I will probably develop a level editor. but a GUI editor always has its down sides so please learn the textual basis first.
+
+# Develop
+developers,developers,developers,,, please read the [developer's guide](https://github.com/tyt2y3/teeth/blob/master/developers.md#develop).
 
 ### Finally
 If you have designed good levels, please send them to me or make a pull request and I'll include them in the offical release.

@@ -1,4 +1,4 @@
-define(['teeth/selector','teeth/controller','core/sprite','core/animator','teeth/data-AI'],
+define(['teeth/selector','teeth/controller','core/sprite','core/animator','data/data-AI'],
 function($,controller,Fsprite,Fanimator,data_AI)
 {
 

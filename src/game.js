@@ -1,5 +1,5 @@
 define([
-'teeth/selector', 'teeth/level', 'teeth/character', 'teeth/data-characters'
+'teeth/selector', 'teeth/level', 'teeth/character', 'data/data-characters'
 ],
 function(
 $, Level, Character, data_characters

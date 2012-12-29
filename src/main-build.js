@@ -1,10 +1,10 @@
-//game loader
+//the game loader used in release
 
 requirejs.config({
-	baseUrl: '../../',
+	baseUrl: './',
 	paths: {
-		'teeth':'teeth/src',
-		'data':'teeth/src'
+		'teeth':'',
+		'data':'data'
 	}
 });
 
