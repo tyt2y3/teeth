@@ -1,3 +1,8 @@
+//character is the hero or ghost object managing position and state of itself.
+//	it also includes a simple AI that makes it autonomous
+//	hero and ghost has a protocol to speak to each other
+//	a `character` also communicates with `level` and `game`
+
 define(['teeth/selector','teeth/controller','core/sprite','core/animator','data/data-AI'],
 function($,controller,Fsprite,Fanimator,data_AI)
 {
@@ -23,9 +28,9 @@ function character(cha,role,control,manager)
 	this.x=0; this.y=0; //position on map
 	this.sx=0; this.sy=0; //pixel position on stage
 	this.vx=0; this.vy=0; //velocity; can be -1,0,1
-	this.nx=0; this.ny=0; //the 'next velocity' when I arrive at a position where I can turn
-	this.speed=0;
-	this.keyframe_rate;
+	this.nx=0; this.ny=0; //the 'next velocity' when I arrive the next exact position on map
+	this.speed=0; //speed in pixels
+	this.keyframe_rate; //a keyframe is when I arrive on an exact position on map
 
 	this.sp; //F.sprite object
 	this.ani; //F.animator object

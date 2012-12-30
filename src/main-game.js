@@ -1,9 +1,9 @@
-//manages the course of the game
+//manages the course of the game, proceeds to the next level
 
 define(['teeth/selector','teeth/game','data/data-levels'],
 function($,Game,data_levels)
 {
-	var game={ delete:function(){} };
+	var game={ _delete:function(){} };
 	var current_level;
 
 	function restart()
@@ -11,7 +11,7 @@ function($,Game,data_levels)
 		current_level=0;
 		$('startpage').style.display='';
 		$('gametext').style.display='none';
-		game.delete();
+		game._delete();
 		$('!clear-cache');
 		game = new Game('demo',data_levels,current_level,callback);
 	}
@@ -25,7 +25,7 @@ function($,Game,data_levels)
 			current_level++;
 			$('startpage').style.display='none';
 			$('gametext').style.display='none';
-			game.delete();
+			game._delete();
 			$('!clear-cache');
 			game = new Game('play',data_levels,current_level,callback);
 		}

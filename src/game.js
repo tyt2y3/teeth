@@ -1,3 +1,5 @@
+//`game` is a playable level of the game
+
 define([
 'teeth/selector', 'teeth/level', 'teeth/character', 'data/data-characters'
 ],
@@ -144,7 +146,7 @@ $, Level, Character, data_characters
 		}
 
 		//destructor to remove all DOM nodes
-		this.delete=function()
+		this._delete=function()
 		{
 			if( timeout)
 				clearTimeout(timeout);
