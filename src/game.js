@@ -99,7 +99,7 @@ $, Level, Character, data_characters
 		var map = data_levels.levels[sublevel];
 		var level = manager.level = new Level(data_levels,sublevel,manager);
 		var chars = [];
-		var hero;
+		var hero; this.hero;
 		var level_cleared=false;
 		for( var i=0; i<level.charpoint.length; i++)
 		{
@@ -122,7 +122,7 @@ $, Level, Character, data_characters
 			chars[i].set_map_xy(level.charpoint[i]);
 			if( role==='hero')
 			{
-				hero=chars[i];
+				this.hero=hero=chars[i];
 				hero.life=map.lives;
 				hero.dat.chase_timeout=map.chase_timeout;
 			}

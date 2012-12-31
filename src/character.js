@@ -196,8 +196,12 @@ character.prototype.frame=function()
 				}
 				else
 				{	//I am being eaten
-					this.signal('be eaten');
-					break;
+					if( this.opp[i].state!=='transform_to_be_eaten' &&
+						this.opp[i].state!=='be_eaten')
+					{
+						this.signal('be eaten');
+						break;
+					}
 				}
 			}
 		}
@@ -377,7 +381,11 @@ character.prototype.consume_signal=function()
 							this.friend[j].state!=='be_eaten')
 							left++;
 					if( left===0)
+					{
 						this.manager.signal('hero','ate all ghost');
+						for ( var k=0; k<this.friend.length; k++)
+							this.friend[k].state_timeout=999;
+					}
 				break;
 				case 'return to normal':
 					if( this.state==='be_chase')
