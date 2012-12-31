@@ -8,12 +8,13 @@ function($,Game,data_levels)
 
 	function restart()
 	{
-		current_level=0;
+		current_level=3;
 		$('startpage').style.display='';
 		$('gametext').style.display='none';
 		game._delete();
 		$('!clear-cache');
 		game = new Game('demo',data_levels,current_level,callback);
+		game.hero.life=999;
 	}
 
 	restart();
@@ -32,7 +33,7 @@ function($,Game,data_levels)
 		else
 		{
 			$('gametext').style.display='';
-			$('gametext').innerHTML='Game complete!<br><span style="font-size:30px;">Please <a style="color:#FFF;" href="https://github.com/tyt2y3/teeth#teeth" target="_blank">design</a> levels and sprites for this game.</span>';
+			$('gametext').innerHTML='Happy 2013!<br><span style="font-size:30px;">Game complete.<br><a style="color:#FFF;" href="https://github.com/tyt2y3/teeth#teeth" target="_blank">Design</a> your levels and sprites</span>';
 			$('infotext').innerHTML= 'restarting in 15 sec...';
 			setTimeout(restart,15000);
 		}
@@ -40,7 +41,12 @@ function($,Game,data_levels)
 
 	$('start').onclick=function()
 	{
-		current_level=0;
+		current_level=0; //next level will be +1
+		next_level();
+	}
+	$('2013special').onclick=function()
+	{
+		current_level=2; //next level will be 3
 		next_level();
 	}
 
