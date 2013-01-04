@@ -8,7 +8,8 @@ requirejs.config({
 	}
 });
 
-requirejs(['teeth/main-game'],
-function(main_game)
+requirejs(['teeth/selector','teeth/main-game'],
+function($, main_game)
 {
+	$('fps').style.display='none';
 });
