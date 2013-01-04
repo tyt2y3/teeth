@@ -72,8 +72,8 @@ function level(lev,mapi,manager) //create map `mapi` of level `lev`
 				ani.set_frame(lev.blocks[I].sprite);
 		}
 		map.push({
-			sp:sp,
-			ani:ani,
+			//sp:sp,
+			//ani:ani,
 			type:type
 		});
 		sp.set_xy(position);

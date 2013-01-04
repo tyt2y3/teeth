@@ -6,12 +6,11 @@ title: [一齊設計遊戲吧] 腦魔VS牙牙
 [img]http://tyt2y3.github.com/teeth/web/images/cap02.png[/img]
 試玩link [url]http://tyt2y3.github.com/teeth/[/url] (IE唔知得未)
 
-1) 暫時得兩關, 希望巴打可以設計更多關卡
-documentation [url]https://github.com/tyt2y3/teeth#data-changing[/url]
+1) 暫時得三關, 可以設計更多關卡
+documentation [url]http://github.com/tyt2y3/teeth#data-changing[/url]
 
 2) 個地圖d blocks好簡陋, 希望有巴打畫畫佢
 [img]http://tyt2y3.github.com/teeth/release/sprites.png[/img]
-我想要d階磚,馬路,橋之類, 不過咩都無所謂 #goodlm#
 
 3) 人物方面, 腦魔同牙牙動作都比較少, 都可以設計下
 
@@ -20,3 +19,9 @@ documentation [url]https://github.com/tyt2y3/teeth#data-changing[/url]
 5) 功能建議都可以講下, 不過太麻煩的話未必會採納
 
 6) 今次做得ok的話, 下次可以整其他遊戲
+
+title: 過到呢關祝你2013見關拆關
+
+[img]http://tyt2y3.github.com/teeth/web/images/cap03.png[/img]
+[url]http://tyt2y3.github.com/teeth/[/url]
+(記得cap圖)
