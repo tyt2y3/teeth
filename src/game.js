@@ -136,14 +136,8 @@ $, Level, Character, data_characters
 			chars[i].game_start();
 		level.game_start();
 		$('infotext').innerHTML='collect all pellets';
-		var timer=setInterval(interval,1000/35); //targeted at ~30fps
+		var timer=setInterval(frame,1000/35); //targeted at ~30fps
 		var timeout;
-		var aniframe;
-		function interval()
-		{
-			if( !aniframe) //if there is no pending animation frame
-				aniframe = window.requestAnimationFrame(frame);
-		}
 		function frame()
 		{
 			for( var i in chars)
@@ -155,8 +149,6 @@ $, Level, Character, data_characters
 			this.time=new Date().getTime();
 			var diff=this.time-ot;
 			$('fps').value = Math.round(1000/diff)+'fps';
-			//
-			aniframe=null;
 		}
 
 		//destructor to clear all DOM nodes and timers
@@ -164,8 +156,6 @@ $, Level, Character, data_characters
 		{
 			if( timeout)
 				clearTimeout(timeout);
-			if( aniframe)
-				window.cancelAnimationFrame(aniframe);
 			clearInterval(timer);
 			$('stage').parentNode.removeChild($('stage'));
 		}
