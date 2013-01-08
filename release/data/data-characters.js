@@ -11,7 +11,7 @@ define({
 				col:10, //no. of column
 				row:10,
 				blockw:35, //size of sprite in pixels
-				blockh:35,
+				blockh:35
 			},
 			action:
 			{
@@ -51,7 +51,7 @@ define({
 				col:10,
 				row:10,
 				blockw:35,
-				blockh:35,
+				blockh:35
 			},
 			action:
 			{
