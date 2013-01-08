@@ -7,7 +7,7 @@ define({
 		col:10,
 		row:10,
 		blockw:35,
-		blockh:35,
+		blockh:35
 	},
 	blocks:
 	{
