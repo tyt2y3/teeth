@@ -1,6 +1,6 @@
 //level is an object managing the map, pellets and treasures
 
-define(['teeth/selector','core/sprite','core/animator'],
+define(['teeth/selector','F.core/sprite','F.core/animator'],
 function($,Fsprite,Fanimator)
 {
 

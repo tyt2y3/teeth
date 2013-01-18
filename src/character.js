@@ -3,7 +3,7 @@
 //	hero and ghost has a protocol to speak to each other
 //	a `character` also communicates with `level` and `game`
 
-define(['teeth/selector','teeth/controller','core/sprite','core/animator','data/data-AI'],
+define(['teeth/selector','teeth/controller','F.core/sprite','F.core/animator','data/data-AI'],
 function($,controller,Fsprite,Fanimator,data_AI)
 {
 
@@ -80,15 +80,15 @@ function character(cha,role,control,manager)
 						case 'up':
 							This.ny=-1;
 						break;
-					
+
 						case 'down':
 							This.ny=+1;
 						break;
-					
+
 						case 'left':
 							This.nx=-1;
 						break;
-					
+
 						case 'right':
 							This.nx=+1;
 						break;
@@ -276,7 +276,7 @@ character.prototype.keyframe=function() //when I reach another point on map
 			}
 			break;
 		}
-		
+
 		if( this.state_timeout === 0)
 		{
 			if( this.state==='be_eaten')
@@ -508,7 +508,7 @@ character.prototype.decide=function()
 		if( poss.length>1)
 			//wander is to patrol back and,,
 			decision = back;
-		else 
+		else
 		{	//,,and forth
 			decision.x = this.vx;
 			decision.y = this.vy;

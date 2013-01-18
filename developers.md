@@ -12,7 +12,7 @@ __teeth__ is built with the best practices in web application development, inclu
 > something like
 > ```
 > F/
->	core/
+>	F.core/
 >	teeth/
 > ```
 
@@ -42,7 +42,7 @@ __teeth__ is built with the best practices in web application development, inclu
 > - `git checkout gh-pages` the branch gh-pages is hosted on web servers by github
 > - `git merge master` merge all changes
 > - `git push` push to the web!
-> 
+>
 > note: you can only push to a repo you own or granted write permission to you. I recommend you to use `https` protocal to github. in this case you'll need to input you credentials every time and `Make` cannot handle this for you. so you should run `git push` manually.
 
 - `git checkout master` and get back to work

@@ -1,4 +1,4 @@
-define(['core/controller'],function (Fcontroller)
+define(['F.core/controller'],function (Fcontroller)
 {
 	var control_config={
 		up:'up', down:'down', left:'left', right:'right'
