@@ -8,7 +8,7 @@ function($,Game,data_levels)
 
 	function restart()
 	{
-		current_level=3;
+		current_level=0;
 		$('startpage').style.display='';
 		$('gametext').style.display='none';
 		game._delete();
@@ -42,11 +42,6 @@ function($,Game,data_levels)
 	$('start').onclick=function()
 	{
 		current_level=0; //next level will be +1
-		next_level();
-	}
-	$('2013special').onclick=function()
-	{
-		current_level=2; //next level will be 3
 		next_level();
 	}
 

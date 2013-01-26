@@ -136,7 +136,7 @@ $, Level, Character, data_characters
 			chars[i].game_start();
 		level.game_start();
 		$('infotext').innerHTML='collect all pellets';
-		var timer=setInterval(frame,1000/35); //targeted at ~30fps
+		var timer=setInterval(frame,1000/30); //targeted at ~30fps
 		var timeout;
 		function frame()
 		{

@@ -531,8 +531,9 @@ character.prototype.decide=function()
 			false); //minimum
 		var best = min_max( poss,
 			function (R) {
-				return distance(add(R,This), This.opp[closest])+(equal(back,R)?-1:0);
-				//if the path is going backward, add penalty
+				return distance(add(R,This), This.opp[closest])+
+					(this.state==='be_chase'? (equal(back,R)?-1:0):0);
+				//if the path is going backward when being chased, add penalty
 			},
 			this.state==='be_chase'); //take the max if being chased
 		decision = poss[best];
