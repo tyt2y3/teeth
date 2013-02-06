@@ -192,14 +192,14 @@ level.prototype.consume=function(P)
 }
 level.prototype.frame=function()
 {
-	this.counter++;
 	//generally it is not possible that more than one pellet is consumed at the same time
-	if( this.counter%10===0)
+	this.counter++;
+	if( this.counter%10===0) // every 1/3 second
 	{
 		var P = this.pellet.consuming;
 		if( P)
 		{
-			if( P.ani.next_frame() === P.ani.config.ani.length-1)
+			if( P.ani.next_frame() === 0)
 			{	//animation finishes
 				P.sp.remove();
 				this.pellet.consuming=0;
