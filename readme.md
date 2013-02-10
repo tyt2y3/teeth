@@ -97,3 +97,7 @@ developers,developers,developers,,, please read the [developer's guide](https://
 
 ### Finally
 If you have designed good levels, please send them to me or make a pull request and I'll include them in the offical release.
+
+## Project F
+<img src="http://2.bp.blogspot.com/-k-My1B-YlaU/T8JUBAYpu9I/AAAAAAAAACI/OnCvkzFF5jw/s1600/logo_l1_s.png" height="80"/>
+teeth is a member of [Project F games](http://project--f.blogspot.com/2013/02/games.html).
