@@ -4,10 +4,6 @@
 Teeth is a pacman style game based on F.core.
 [__Play now!__](http://tyt2y3.github.com/teeth/)
 
-It is my spare time project to make some fun out of teeth-teeth and brain demon.
-
-I will be maintaining this code base until Jan 31 2013, and _may_ accept feature request.
-
 # Hackability
 This game is designed to be hackable. It should be easy to design custom levels, maps and sprites. And with some coding, everything is possible.
 So you are come to hack me. First of all you need to clone this repository. Then look into the subdirectory `release/data`.
