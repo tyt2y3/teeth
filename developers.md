@@ -1,6 +1,18 @@
 # Develop
 This guide is for developers doing development beyond data changing with __teeth__.
 
+## modules
+- `main.js` program entry point
+- `main-build.js` a different entry point for built version
+- `main-game.js` controls the entire course of the game, proceeds to the next level
+- `game.js` a `game` object represents a playable level of the game
+- `level.js` manages the map, pellets and treasures
+- `character.js` is the hero or ghost object managing position and state of itself. it also includes a simple AI that makes it autonomous. hero and ghost has a protocol to speak to each other. a `character` also communicates with `level` and `game`.
+- `controller.js` F.core controller
+- `data-AI.js` define parameters for AI
+- `data-levels.js` define levels
+- `data-characters.js` define sprites
+
 ## Toolchains
 __teeth__ is built with the best practices in web application development, including versioning control, compile-free rapid development, compile-time scripts optimization and automatic build process. So you'll need to be familiar with these tools (luckily, they are not hard to learn).
 
