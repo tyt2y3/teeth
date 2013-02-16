@@ -20,13 +20,11 @@ __teeth__ is built with the best practices in web application development, inclu
 - [git](http://git-scm.com/)
 - [node.js](http://nodejs.org/)
 - [F.core repository](https://github.com/tyt2y3/F.core) install with teeth side by side, the folder must be named `F.core`
-
-> something like
-> ```
-> F/
->	F.core/
->	teeth/
-> ```
+```
+F/
+	F.core/
+	teeth/
+```
 
 - [requirejs](http://requirejs.org/) (already installed in the repo)
 - _optional_ Make
@@ -46,7 +44,7 @@ __teeth__ is built with the best practices in web application development, inclu
 > - copy the `*.png`, `*.css`, `data*.js`, and the `.html` files into `/release`
 > - delete `/src-build`
 
--then run `make release`
+- then run `make release`
 
 > it is really
 > - `git add .` add all changes and new files
