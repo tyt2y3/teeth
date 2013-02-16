@@ -1,7 +1,7 @@
 # Develop
 This guide is for developers doing development beyond data changing with __teeth__.
 
-## modules
+## Modules
 - `main.js` program entry point
 - `main-build.js` a different entry point for built version
 - `main-game.js` controls the entire course of the game, proceeds to the next level
